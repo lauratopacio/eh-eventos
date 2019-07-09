@@ -1,0 +1,166 @@
+  @font-face
+{
+   font-family: "acumins";
+   src: url("../fonts/Acumin Pro Cond Light.otf");
+}
+  @font-face
+{
+   font-family: "rainbow";
+   src: url("../fonts/Rainbow Dreams - Personal Use.otf");
+}
+  @font-face
+{
+   font-family: "gotham";
+   src: url("../fonts/GothamBook.ttf");
+}
+a:link{
+  text-decoration: none;
+}
+@media (max-width: 575.98px) { 
+  #banner_final{
+  margin-top: 3%;
+  width: 100%;
+  background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+  background-repeat: inherit;
+  height:auto;
+}
+#element_ban_1{
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+}
+.btn_click{
+  background-color: transparent;
+  border:1.3px solid white;
+  width:80%;
+  height: 9vw;
+  margin-left: 10%;
+  margin-bottom: 5vw;
+
+}
+#txt_click{
+  color: white;
+  font-family: "gotham";
+  letter-spacing: .1vw;
+  text-align: center;
+  font-size: 5.5vw
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+#banner_final{
+  margin-top: 3%;
+  width: 100%;
+  background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+  background-repeat: inherit;
+  height:auto;
+}
+#element_ban_1{
+  width: 40%;
+  height: auto;
+  margin-left: 56%;
+}
+.btn_click{
+  background-color: transparent;
+  border:1.3px solid white;
+  width: 40%;
+  height: 4vw;
+  margin-top: 5.5vw;
+
+}
+#txt_click{
+  color: white;
+  font-family: "gotham";
+  letter-spacing: .1vw;
+  text-align: center;
+  font-size: 2.5vw
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+#banner_final{
+  margin-top: 3%;
+  width: 100%;
+  background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+  background-repeat: inherit;
+  height:auto;
+}
+#element_ban_1{
+  width: 25%;
+  height: auto;
+  margin-left: 72%;
+}
+.btn_click{
+  background-color: transparent;
+  border:1.3px solid white;
+  width: 27%;
+  height: 2.4vw;
+  margin-top: 3.7vw;
+
+}
+#txt_click{
+  color: white;
+  font-family: "gotham";
+  letter-spacing: .1vw;
+  text-align: center;
+  font-size: 1.4vw
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #banner_final{
+    margin-top: 3%;
+    width: 100%;
+    background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+    background-repeat: inherit;
+    height:auto;
+  }
+  #element_ban_1{
+    width: 25%;
+    height: auto;
+    margin-left: 72%;
+  }
+  .btn_click{
+    background-color: transparent;
+    border:1.3px solid white;
+    width: 27%;
+    height: 2.4vw;
+    margin-top: 3.7vw;
+
+  }
+  #txt_click{
+    color: white;
+    font-family: "gotham";
+    letter-spacing: .1vw;
+    text-align: center;
+    font-size: 1.4vw
+  }
+
+}
+@media (min-width: 1200px)  {
+  #banner_final{
+    margin-top: 3%;
+    width: 100%;
+    background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+    background-repeat: inherit;
+    height:auto;
+  }
+  #element_ban_1{
+    width: 20%;
+    height: auto;
+    margin-left: 72%;
+  }
+  .btn_click{
+    background-color: transparent;
+    border:1.3px solid white;
+    width: 27%;
+    height: 2.4vw;
+    margin-top: 3vw;
+
+  }
+  #txt_click{
+    color: white;
+    font-family: "gotham";
+    letter-spacing: .1vw;
+    text-align: center;
+    font-size: 1.4vw
+  }
+}

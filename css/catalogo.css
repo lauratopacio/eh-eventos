@@ -1,0 +1,559 @@
+ body{
+background-image: url("../images/fondo.png");
+ }
+  @font-face
+{
+   font-family: "acumins";
+   src: url("../fonts/Acumin Pro Cond Light.otf");
+}
+  @font-face
+{
+   font-family: "rainbow";
+   src: url("../fonts/Rainbow Dreams - Personal Use.otf");
+}
+  @font-face
+{
+   font-family: "gotham";
+   src: url("../fonts/Gotham Book Regular.otf");
+}a:link{
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+#slider_foto{
+  width: 100%;
+  height: auto;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  background-color: #222222;
+}
+
+@media (max-width: 575.98px) { 
+  /**** margenes*/
+	.margen_contenido{
+	  width: 99%;
+	  height: auto;
+	  margin-right: .5%;
+	  margin-left: .5%;
+
+	}
+  #titulo{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#text_desc{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
+  color: white;
+  font-family: "acumins";
+  font-size: 3.2vw;
+  text-align: justify;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#imgs{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+}
+}
+/*************************************************************************************************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /**** margenes*/
+.margen_contenido{
+  width: 98%;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 1%;
+
+}
+#titulo{
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#text_desc{
+  width: 85%;
+  height: auto;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  padding-top: 2%;
+  color: white;
+  font-family: "acumins";
+  font-size: 2.2vw;
+  text-align: justify;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#imgs{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+}
+}
+ /*************************************************************************************************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /**** margenes*/
+.margen_contenido{
+  width: 98%;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+#titulo{
+  width: 55%;
+  height: auto;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+}
+
+#text_desc{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  color: white;
+  font-family: "acumins";
+  font-size: 1.7vw;
+  text-align: justify;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#imgs{
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+}
+}
+ /*************************************************************************************************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /**** margenes*/
+.margen_contenido{
+  width: 85%;
+  height: auto;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
+
+}
+#titulo{
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#text_desc{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  color: white;
+  font-family: "acumins";
+  font-size: 1.5vw;
+  text-align: justify;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#imgs{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+}
+}
+ /*************************************************************************************************************/
+
+@media (min-width: 1200px)  {
+  /**** margenes*/
+.margen_contenido{
+  width: 80%;
+  height: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+#titulo{
+	width: 40%;
+	height: auto;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#text_desc{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  color: white;
+  font-family: "acumins";
+  font-size: 1.3vw;
+  text-align: justify;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#imgs{
+  width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+}
+}

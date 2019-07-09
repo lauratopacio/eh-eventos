@@ -1,0 +1,567 @@
+  @font-face
+{
+   font-family: "acumin";
+   src: url("../fonts/Acumin Pro Cond ExtraLight.otf");
+}
+  @font-face
+{
+   font-family: "acumins";
+   src: url("../fonts/Acumin Pro Cond Light.otf");
+}
+  @font-face
+{
+   font-family: "rainbow";
+   src: url("../fonts/Rainbow Dreams - Personal Use.otf");
+}
+  @font-face
+{
+   font-family: "gotham";
+   src: url("../fonts/Gotham Book Regular.otf");
+}
+.modal-content{
+	background-image: url('../icons/FONDO.png');
+
+}
+#close{
+	float: right;
+}
+@media (max-width: 575px) { 
+#tit_3{
+	font-family: "rainbow";
+	font-size: 8vw;
+	width: 100%;
+	height: auto;
+	margin-left: -15%;
+	margin-top: -3%;
+	text-align: right;
+}
+#tit_4{
+	font-family: "acumin";
+	font-size:6vw;
+	width: 100%;
+	height: auto;
+	margin-left: -20%;
+	letter-spacing: .1em;
+}
+
+#texto_info{
+	font-family: "gotham";
+	width: 90%;
+	font-size:2.3vw;
+	letter-spacing: .1em;
+	text-align: justify;  
+	margin-top: -5%;
+}
+
+#texto_contactanos{
+	font-family: "gotham";
+	width: 80%;
+	font-size:2.3vw;
+	letter-spacing: .1em;
+	text-align: center;  
+	margin-top: 1vw;
+	margin-left: 10%;
+}
+#txt_capacidad{
+width: 90%;
+margin-left: 5%;
+height: auto;
+
+}
+#marg_info{
+	width: 100%;
+	margin-left: 4%;
+}
+
+#sut_tit{
+	font-family: "rainbow";
+	font-size: 33px;
+	margin-top: -5%;
+	margin-left: 10%;
+}
+
+#txt_desc{
+	font-family: "acumin";
+	font-size: 15px;
+	margin-top: -1.8vw;
+		margin-left: 10%;
+
+}
+#elem{
+	width: 100%;
+	height: auto;
+}
+#im_salon{
+	width: 100%;
+	height: auto;
+	
+}
+#im_slider{
+	width: 100%;
+	height: auto;
+}
+
+#myCarousel #myCarousel2 #myCarousel3 #myCarousel4{
+	width: 92%;
+	margin-left: 4%;
+}
+#btn_reserva{
+	background-color: white;
+	width: 40%;
+	margin-left: 30%;
+	height: 45px;
+	border:1.5px solid black;
+}
+#txt_reserva_aqui{
+	font-family: "acumin";
+	font-size: 30px;
+	text-align: center;
+}
+#im_linea{
+	width: 100%;
+	height: 0px;
+}
+#boton{
+	margin-top: -380%;
+	margin-right:-90%;
+}
+}
+/*************************************************************************/
+@media (min-width: 576px) { 
+#tit_3{
+	font-family: "rainbow";
+	font-size: 8vw;
+	width: 100%;
+	height: auto;
+	margin-left: -15%;
+	margin-top: -5%;
+	text-align: right;
+}
+#tit_4{
+	font-family: "acumin";
+	font-size:6vw;
+	width: 100%;
+	height: auto;
+	margin-left: -20%;
+	letter-spacing: .1em;
+
+}
+
+#texto_info{
+	font-family: "gotham";
+	width: 90%;
+	font-size:1.7vw;
+	letter-spacing: .1em;
+	text-align: justify;  
+	margin-top: -5%;
+}
+
+#texto_contactanos{
+	font-family: "gotham";
+	width: 90%;
+	font-size:1.7vw;
+	letter-spacing: .1em;
+	text-align: center;  
+	margin-top: 1vw;
+	margin-left: 5%;
+}
+#txt_capacidad{
+width: 90%;
+margin-left: 5%;
+height: auto;
+
+}
+#marg_info{
+	width: 100%;
+	margin-left: 4%;
+}
+
+#sut_tit{
+	font-family: "rainbow";
+	font-size: 33px;
+	margin-top: -5%;
+	margin-left: 10%;
+}
+
+#txt_desc{
+	font-family: "acumin";
+	font-size: 15px;
+	margin-top: -1.8vw;
+		margin-left: 10%;
+
+}
+#elem{
+	width: 100%;
+	height: auto;
+}
+#im_salon{
+	width: 100%;
+	height: auto;
+	
+}
+#im_slider{
+	width: 100%;
+	height: auto;
+}
+
+#myCarousel #myCarousel2 #myCarousel3 #myCarousel4{
+	width: 92%;
+	margin-left: 4%;
+}
+#btn_reserva{
+	background-color: white;
+	width: 40%;
+	margin-left: 30%;
+	height: 45px;
+	border:1.5px solid black;
+}
+#txt_reserva_aqui{
+	font-family: "acumin";
+	font-size: 30px;
+	text-align: center;
+}
+#im_linea{
+	width: 100%;
+	height: 0px;
+}
+#boton{
+	margin-top: -380%;
+	margin-right:-90%;
+}
+
+}
+/***********************************************************************/
+@media (min-width: 768px) {
+#tit_3{
+	font-family: "rainbow";
+	font-size: 8vw;
+	width: 100%;
+	height: auto;
+	margin-left: -15%;
+	margin-top: -5%;
+	text-align: right;
+}
+#tit_4{
+	font-family: "acumin";
+	font-size:6vw;
+	width: 100%;
+	height: auto;
+	margin-left: -20%;
+	letter-spacing: .1em;
+}
+
+#texto_info{
+	font-family: "gotham";
+	width: 90%;
+	font-size:1.3vw;
+	letter-spacing: .1em;
+	text-align: justify;  
+	margin-top: -10%;
+}
+
+#texto_contactanos{
+	font-family: "gotham";
+	width: 90%;
+	font-size:1.3vw;
+	letter-spacing: .1em;
+	text-align: center;  
+	margin-top: 1vw;
+	margin-left: 5%;
+}
+#txt_capacidad{
+width: 90%;
+margin-left: 5%;
+height: auto;
+
+}
+#marg_info{
+	width: 100%;
+	margin-left: 4%;
+}
+
+#sut_tit{
+	font-family: "rainbow";
+	font-size: 33px;
+	margin-top: -5%;
+	margin-left: 10%;
+}
+
+#txt_desc{
+	font-family: "acumin";
+	font-size: 15px;
+	margin-top: -1.8vw;
+		margin-left: 10%;
+
+}
+#elem{
+	width: 100%;
+	height: auto;
+}
+#im_salon{
+	width: 100%;
+	height: auto;
+	
+}
+#im_slider{
+	width: 100%;
+	height: auto;
+}
+
+#myCarousel #myCarousel2 #myCarousel3 #myCarousel4{
+	width: 92%;
+	margin-left: 4%;
+}
+
+#btn_reserva{
+	background-color: white;
+	width: 40%;
+	margin-left: 30%;
+	height: 45px;
+	border:1.5px solid black;
+}
+#txt_reserva_aqui{
+	font-family: "acumin";
+	font-size: 30px;
+	text-align: center;
+}
+#im_linea{
+	width: 100%;
+	height: 0px;
+}
+#boton{
+	margin-top: -380%;
+	margin-right:-90%;
+}
+
+}
+/******************************************************************************************/
+@media (min-width: 992px) { 
+
+#tit_3{
+	font-family: "rainbow";
+	font-size: 50px;
+	width: 100%;
+	height: auto;
+	
+	text-align: right;
+}
+#tit_4{
+	font-family: "acumin";
+	font-size: 50px;
+	width: 100%;
+	height: auto;
+	letter-spacing: .1em;
+}
+
+#texto_info{
+	font-family: "gotham";
+	width: 100%;
+	margin-left: 5%;
+	font-size:1.2vw;
+	letter-spacing: .1em;
+	text-align: justify;  
+	margin-top: -2vw;
+}
+
+#texto_contactanos{
+	font-family: "gotham";
+	width: 90%;
+	font-size:1.2vw;
+	letter-spacing: .1em;
+	text-align: center;  
+	margin-top: 1vw;
+}
+#txt_capacidad{
+width: 100%;
+height: auto;
+margin-left: 5%;
+}
+#marg_info{
+	width: 100%;
+	margin-left: 4%;
+}
+
+#sut_tit{
+	font-family: "rainbow";
+	font-size: 33px;
+	margin-top: -5%;
+	margin-left: 10%;
+}
+
+#txt_desc{
+	font-family: "acumin";
+	font-size: 15px;
+	margin-top: -1.8vw;
+		margin-left: 10%;
+
+}
+#elem{
+	width: 100%;
+	height: auto;
+}
+#im_salon{
+	width: 100%;
+	height: auto;
+	margin-left: 5%;
+}
+#im_slider{
+	width: 100%;
+	height: auto;
+}
+
+#myCarousel{
+	margin-top:100px;
+	margin-bottom: 20%;
+	width: 90%;
+}
+#myCarousel2{
+	margin-top:100px;
+	margin-bottom: 20%;
+	width: 90%;
+}
+#myCarousel3{
+	margin-top:100px;
+	margin-bottom: 20%;
+	width: 90%;
+}
+#myCarousel4{
+	margin-top:100px;
+	margin-bottom: 20%;
+	width: 90%;
+}
+#btn_reserva{
+	background-color: white;
+	width: 62%;
+	margin-left: 20%;
+
+	margin-top: 30%;
+	height: 45px;
+	border:1.5px solid black;
+}
+#txt_reserva_aqui{
+	font-family: "acumin";
+	font-size: 30px;
+	text-align: center;
+}
+#im_linea{
+	width: 100%;
+	height: 67vw;
+}
+}
+
+@media (min-width: 1200px) {
+
+
+#tit_3{
+	font-family: "rainbow";
+	font-size: 70px;
+	width: 100%;
+	height: auto;
+	margin-top: -2%;
+	text-align: right;
+}
+#tit_4{
+	font-family: "acumin";
+	font-size: 60px;
+	width: 100%;
+	height: auto;
+	letter-spacing: .1em;
+}
+
+#texto_info{
+	font-family: "gotham";
+	width: 90%;
+	margin-left: 10%;
+	font-size:15px;
+	letter-spacing: .1em;
+	text-align: justify;  
+	margin-top: -2vw;
+}
+
+#texto_contactanos{
+	font-family: "gotham";
+	width: 90%;
+	font-size:15px;
+	letter-spacing: .1em;
+	text-align: center;  
+	margin-top: 1vw;
+}
+#txt_capacidad{
+width: 90%;
+height: auto;
+margin-left: 10%;
+}
+#marg_info{
+	width: 90%;
+	margin-left: 10%;
+}
+
+#sut_tit{
+	font-family: "rainbow";
+	font-size: 35px;
+	margin-top: -5%;
+	margin-left: 10%;
+}
+
+#txt_desc{
+	font-family: "acumin";
+	font-size: 15px;
+	margin-top: -1.8vw;
+		margin-left: 10%;
+
+}
+#elem{
+	width: 100%;
+	height: auto;
+}
+#im_salon{
+	width: 90%;
+	height: auto;
+	margin-left: 10%;
+}
+#im_slider{
+	width: 100%;
+	height: auto;
+}
+
+#myCarousel{
+	margin-top:100px;
+	margin-bottom: 2vw;
+	width: 90%;
+}
+#myCarousel2{
+	margin-top:100px;
+	margin-bottom: 2vw;
+	width: 90%;
+}
+#myCarousel3{
+	margin-top:100px;
+	margin-bottom: 2vw;
+	width: 90%;
+}
+#myCarousel4{
+	margin-top:100px;
+	margin-bottom: 2vw;
+	width: 90%;
+}
+#btn_reserva{
+	background-color: white;
+	width: 40%;
+	margin-left: 25%;
+	margin-right: 30%;
+	margin-top: 10%;
+	height: 50px;
+	border:1.5px solid black;
+}
+#txt_reserva_aqui{
+	font-family: "acumin";
+	font-size: 35px;
+	text-align: center;
+}
+#im_linea{
+	width: 100%;
+	height: auto;
+}
+
+}
+

@@ -1,0 +1,482 @@
+ body{
+background-image: url("../images/fondo.png");
+ }
+  @font-face
+{
+   font-family: "acumins";
+   src: url("../fonts/Acumin Pro Cond Light.otf");
+}
+  @font-face
+{
+   font-family: "rainbow";
+   src: url("../fonts/Rainbow Dreams - Personal Use.otf");
+}
+  @font-face
+{
+   font-family: "gotham";
+   src: url("../fonts/GothamBook.ttf");
+}
+ /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+a:link{
+  text-decoration: none;
+}
+#txt_icons, #txt_reserva,#txt_3{
+  font-family: "acumins";
+  color: #2b2b2b;
+}
+#platillos_2:hover{
+ -webkit-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+ transition: transform .4s;
+  position: relative;
+  z-index: 100;
+}
+#platillos_3:hover{
+ -webkit-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+ transition: transform .4s;
+  position: relative;
+  z-index: 100;
+}
+#platillos_4:hover{
+ -webkit-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+ transition: transform .4s;
+  position: relative;
+  z-index: 100;
+}
+#platillos_5:hover{
+ -webkit-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+ transition: transform .4s;
+  position: relative;
+  z-index: 100;
+}
+#platillos:hover{
+ -webkit-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+box-shadow: 4px 7px 29px 0px rgba(0,0,0,0.75);
+ transition: transform .4s;
+  position: relative;
+  z-index: 100;
+}
+
+@media (max-width: 575.98px) { 
+  /**** margenes*/
+.margen_contenido{
+  width: 99%;
+  height: auto;
+  margin-right: .5%;
+  margin-left: .5%;
+
+}
+/*imagen inicio grande*/
+#im1{
+  width: 100%;
+  height: auto;
+}
+
+/******TITULOS******/
+#titulo_nuestros_platillos{
+  width: 80%;
+  height: auto;
+}
+
+/******/
+#platillos{
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+}
+#platillos_2{
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+}
+#platillos_3{
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+}
+#platillos_4{
+  width: 100%;
+  height: auto;
+   margin-bottom: 2%;
+}
+#platillos_5{
+  width: 100%;
+  height: auto;
+ 
+}
+
+#banner_final{
+  margin-top: 3%;
+  width: 100%;
+  background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+  background-repeat: inherit;
+  height:auto;
+}
+#element_ban_1{
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+}
+.btn_click{
+  background-color: transparent;
+  border:1.3px solid white;
+  width:80%;
+  height: 9vw;
+  margin-left: 10%;
+  margin-bottom: 5vw;
+
+}
+#txt_click{
+  color: white;
+  font-family: "gotham";
+  letter-spacing: .1vw;
+  text-align: center;
+  font-size: 5.5vw
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /**** margenes*/
+.margen_contenido{
+  width: 98%;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 1%;
+
+}
+
+#margen_p2{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+/*imagen inicio grande*/
+#im1{
+  width: 100%;
+  height: auto;
+}
+
+/******TITULOS******/
+#titulo_nuestros_platillos{
+  width: 60%;
+  height: auto;
+}
+
+/******/
+#platillos{
+  width: 105%;
+  height: auto;
+}
+#platillos_2{
+  width: 105%;
+  height: auto;
+  margin-left: -7%;
+}
+#platillos_3{
+  width: 111%;
+  height: auto;
+}
+#platillos_4{
+  width: 111%;
+  height: auto;
+  margin-left: -7%;
+}
+#platillos_5{
+  width: 111%;
+  height: auto;
+   margin-left: -14%;
+}
+
+#banner_final{
+  margin-top: 3%;
+  width: 100%;
+  background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+  background-repeat: inherit;
+  height:auto;
+}
+#element_ban_1{
+  width: 40%;
+  height: auto;
+  margin-left: 56%;
+}
+.btn_click{
+  background-color: transparent;
+  border:1.3px solid white;
+  width: 40%;
+  height: 4vw;
+  margin-top: 5.5vw;
+
+}
+#txt_click{
+  color: white;
+  font-family: "gotham";
+  letter-spacing: .1vw;
+  text-align: center;
+  font-size: 2.5vw
+}
+}
+ /*************************************************************************************************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /**** margenes*/
+.margen_contenido{
+  width: 98%;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 1%;
+
+}
+#marg_icon{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+/*imagen inicio grande*/
+#im1{
+  width: 100%;
+  height: auto;
+}
+
+/******TITULOS******/
+#titulo_nuestros_platillos{
+  width: 60%;
+  height: auto;
+}
+
+/******/
+#platillos{
+  width: 104%;
+  height: auto;
+}
+#platillos_2{
+  width: 104%;
+  height: auto;
+  margin-left: -5%;
+}
+#platillos_3{
+  width: 108%;
+  height: auto;
+}
+#platillos_4{
+  width: 108%;
+  height: auto;
+  margin-left: -5%;
+}
+#platillos_5{
+  width: 108%;
+  height: auto;
+   margin-left: -9.5%;
+}
+
+#banner_final{
+  margin-top: 3%;
+  width: 100%;
+  background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+  background-repeat: inherit;
+  height:auto;
+}
+#element_ban_1{
+  width: 25%;
+  height: auto;
+  margin-left: 72%;
+}
+.btn_click{
+  background-color: transparent;
+  border:1.3px solid white;
+  width: 27%;
+  height: 2.4vw;
+  margin-top: 3.7vw;
+
+}
+#txt_click{
+  color: white;
+  font-family: "gotham";
+  letter-spacing: .1vw;
+  text-align: center;
+  font-size: 1.4vw
+}
+}
+ /*************************************************************************************************************/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /**** margenes*/
+.margen_contenido{
+  width: 90%;
+  height: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+
+}
+#margen_p2{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*imagen inicio grande*/
+#im1{
+  width: 100%;
+  height: auto;
+}
+
+/******TITULOS******/
+#titulo_nuestros_platillos{
+  width: 60%;
+  height: auto;
+}
+
+/******/
+#platillos{
+  width: 104%;
+  height: auto;
+}
+#platillos_2{
+  width: 104%;
+  height: auto;
+  margin-left: -5%;
+}
+#platillos_3{
+  width: 108%;
+  height: auto;
+}
+#platillos_4{
+  width: 108%;
+  height: auto;
+  margin-left: -5%;
+}
+#platillos_5{
+  width: 108%;
+  height: auto;
+   margin-left: -9.5%;
+}
+
+#banner_final{
+  margin-top: 3%;
+  width: 100%;
+  background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+  background-repeat: inherit;
+  height:auto;
+}
+#element_ban_1{
+  width: 25%;
+  height: auto;
+  margin-left: 72%;
+}
+.btn_click{
+  background-color: transparent;
+  border:1.3px solid white;
+  width: 27%;
+  height: 2.4vw;
+  margin-top: 3.7vw;
+
+}
+#txt_click{
+  color: white;
+  font-family: "gotham";
+  letter-spacing: .1vw;
+  text-align: center;
+  font-size: 1.4vw
+}
+}
+ /*************************************************************************************************************/
+
+@media (min-width: 1200px)  {
+  /**** margenes*/
+.margen_contenido{
+  width: 80%;
+  height: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+#margen_p2{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*imagen inicio grande*/
+#im1{
+  width: 100%;
+  height: auto;
+}
+
+/******TITULOS******/
+#titulo_nuestros_platillos{
+  width: 60%;
+  height: auto;
+}
+
+/******/
+#platillos{
+  width: 104%;
+  height: auto;
+}
+#platillos_2{
+  width: 104%;
+  height: auto;
+  margin-left: -5%;
+}
+#platillos_3{
+  width: 108%;
+  height: auto;
+}
+#platillos_4{
+  width: 108%;
+  height: auto;
+  margin-left: -5%;
+}
+#platillos_5{
+  width: 108%;
+  height: auto;
+   margin-left: -9.5%;
+}
+
+#banner_final{
+  margin-top: 3%;
+  width: 100%;
+  background-image: url("../images/nuestros_platillos/banner/banner2.jpg");
+  background-repeat: inherit;
+  height:auto;
+}
+#element_ban_1{
+  width: 20%;
+  height: auto;
+  margin-left: 72%;
+}
+.btn_click{
+  background-color: transparent;
+  border:1.3px solid white;
+  width: 27%;
+  height: 2.4vw;
+  margin-top: 3vw;
+
+}
+#txt_click{
+  color: white;
+  font-family: "gotham";
+  letter-spacing: .1vw;
+  text-align: center;
+  font-size: 1.4vw
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*******************************************************************/
+

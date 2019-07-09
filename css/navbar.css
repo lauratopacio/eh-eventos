@@ -1,0 +1,139 @@
+  @font-face
+{
+   font-family: "acumins";
+   src: url("../fonts/Acumin Pro Cond Light.otf");
+}
+  @font-face
+{
+   font-family: "rainbow";
+   src: url("../fonts/Rainbow Dreams - Personal Use.otf");
+}
+  @font-face
+{
+   font-family: "gotham";
+   src: url("../fonts/GothamBook.ttf");
+}
+#tit_1, #tit_2{
+		color: #222222;
+}
+
+#tit_1{
+	font-family: "rainbow";
+}
+#tit_2{
+	font-family: "acumins";
+}
+.navbar-toggler{
+	float: right;
+}
+
+@media (max-width: 575.98px) { 
+#tit_1{
+	font-size: 5.6vw;
+	width: 100%;
+	margin-left: 5%;
+}
+#tit_2{
+	font-size: 4.5vw;
+	margin-top: -5vw;
+	margin-left: 6%;
+	margin-bottom: 2vw;
+
+}
+#logotipo_menu{
+	width:20%;
+	height: auto;
+	margin-top: -2vw;
+}
+.navbar-toggler{
+	margin-top: 1.5vw;
+}
+.nav-item{
+	height:13vw;
+}
+
+}
+ /*************************************************************************************************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+#tit_1{
+	font-size: 4vw;
+	width: 100%;
+	margin-left: 5%;
+}
+#tit_2{
+	font-size: 3.2vw;
+	margin-top: -4vw;
+	margin-left: 6%;
+	margin-bottom: .5vw;
+
+}
+#logotipo_menu{
+	width: 15%;
+	height: auto;
+	margin-top: -2vw;
+}
+.navbar-toggler{
+	margin-top: 1.5vw;
+}
+.nav-item{
+	height:9vw;
+}
+}
+ /*************************************************************************************************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+#tit_1{
+	font-size: 3.5vw;
+	width: 100%;
+	margin-left: 5%;
+}
+#tit_2{
+	font-size: 3vw;
+	margin-top: -2.5vw;
+	margin-left: 7%;
+	margin-bottom: 1vw;
+}
+#logotipo_menu{
+	width: 12%;
+	height: auto;
+	margin-top: -2vw;
+}
+.navbar-toggler{
+	margin-top: 1.5vw;
+}
+.nav-item{
+	height:9.2vw;
+}
+}
+ /*************************************************************************************************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+#tit_1{
+	font-size: 2vw;
+	width: 100%;
+}
+#tit_2{
+	font-size: 1.9vw;
+	margin-top: -2.5vw;
+}
+#logotipo_menu{
+	width: 20%;
+	height: auto;
+	margin-top: -.6vw;
+}
+}
+ /*************************************************************************************************************/
+@media (min-width: 1200px)  {
+#tit_1{
+	font-size: 1.8vw;
+
+}
+#tit_2{
+	font-size: 1.6vw;
+	margin-top: -2vw;
+}
+#logotipo_menu{
+	width: 15%;
+	height: auto;
+	margin-top: -.5vw;
+}
+}
+/*************************************************************************************************************/
